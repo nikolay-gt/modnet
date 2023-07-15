@@ -34,7 +34,7 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/remove_bg', methods=['POST'])
+@app.route('/remove-bg', methods=['POST'])
 def remback():
     file = request.files['file']
     if file and allowed_file(file.filename):
