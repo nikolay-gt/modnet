@@ -1,3 +1,5 @@
+# code mainly from https://machinelearningprojects.net/background-remover-flask-app/
+
 import os
 from inference import remove_bg
 from PIL import Image
